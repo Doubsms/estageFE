@@ -1,0 +1,17 @@
+.backgroundf{
+    background-image: url('./backgroundv.JPG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.backgroundv{
+    background-image: url('./backgroundf.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.463);
+    width: 100%;
+    height: 100%;
+}

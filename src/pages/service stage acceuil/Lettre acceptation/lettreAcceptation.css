@@ -1,0 +1,10 @@
+/* TypewriterText.css */
+.typewriter {
+  overflow: hidden;
+  white-space: pre-line;
+  animation: typing 3.5s steps(30, end);
+  width: 100%;
+  text-align: justify;
+  font-family: 'Times New Roman', serif;
+  text-indent: 2em;
+}

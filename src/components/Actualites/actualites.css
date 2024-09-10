@@ -1,0 +1,54 @@
+.news-feed {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .loading {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .news-item {
+    position: relative;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .news-image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s;
+  }
+  
+  .news-item:hover .news-image {
+    transform: scale(1.05);
+  }
+  
+  .news-content {
+    padding: 10px;
+  }
+  
+  .news-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .news-text {
+    font-size: 14px;
+  }
+  .news-feed {
+    height: 100vh;
+  }
+  
+  .news-container {
+    max-height: calc(100vh - 60px); /* Ajustez la hauteur en fonction de vos besoins */
+    overflow-y: auto;
+    padding-right: 15px; /* Espace pour la scrollbar */
+  }
+  

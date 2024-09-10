@@ -1,0 +1,10 @@
+.background{
+    background-image: url('./batiment_INS.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.recherche{
+    width: 70%;
+    height: 4%;
+}

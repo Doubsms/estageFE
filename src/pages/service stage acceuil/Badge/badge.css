@@ -1,0 +1,21 @@
+.badge {
+    display: inline-block;
+    background-color: #5bc0de;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    min-width: 200px;
+    font-size: 16px;
+    position: relative;
+  }
+  
+  @media print {
+    body {
+      margin: 0; 
+    }
+    .badge {
+      width: 100%;
+      font-size: 20px;
+    }
+  }
